@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2026-03-27 14:01+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lv\n"
@@ -1044,6 +1044,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -3238,6 +3244,17 @@ msgstr "Atcelt vaicājumu, aizverot logu"
 msgid "Cancellation not available due to missing abort handler"
 msgstr "Atcelšana nav pieejama, jo trūkst pārtraukšanas apstrādātāja"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 msgid "Cannot access the query"
 msgstr "Nevar piekļūt vaicājumam"
 
@@ -3991,6 +4008,9 @@ msgstr "Aizvērt cilni"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 msgid "Cluster label aggregator"
 msgstr "Klasteru apzīmējumu agregators"
 
@@ -4078,6 +4098,9 @@ msgstr "Krāsu pārtraukuma punkti"
 msgid "Color by"
 msgstr "Krāsot pēc"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 #, fuzzy
@@ -4104,6 +4127,14 @@ msgstr "Mērķa atrašanās vietas krāsa"
 
 msgid "Color scheme"
 msgstr "Krāsu shēma"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 msgid ""
 "Color will be shaded based the normalized (0% to 100%) value of a given "
@@ -5060,6 +5091,9 @@ msgstr "Informācijas paneli nevarēja atjaunot."
 msgid "Dashboard could not be updated."
 msgstr "Infopaneli nevarēja atjaunināt."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Informācijas panelis neeksistē"
 
@@ -5068,6 +5102,9 @@ msgstr "Informācijas panelis veiksmīgi eksportēts kā piemērs"
 
 msgid "Dashboard exported successfully"
 msgstr "Informācijas panelis veiksmīgi eksportēts"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Infopanelis importēts"
@@ -7044,9 +7081,6 @@ msgstr "Excel eksports"
 msgid "Excel XML Export"
 msgstr "Excel XML eksports"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Nevar noteikt Excel faila formātu"
 
@@ -7213,6 +7247,11 @@ msgstr "Eksportēt uz oriģinālo .CSV"
 
 msgid "Export to pivoted .CSV"
 msgstr "Eksportēt uz šķērsgriezuma .CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -7682,6 +7721,9 @@ msgstr ""
 " uz reģionu Eiropa (grupas atslēga = 'region'), filtra nosacījums "
 "piemērotu filtru (department = 'Finance' OR department = 'Marketing') AND"
 " (region = 'Europe')."
+
+msgid "Financial"
+msgstr ""
 
 msgid "Find"
 msgstr "Atrast"
@@ -8167,7 +8209,13 @@ msgstr "Paslēpj līniju laika sērijai"
 msgid "Hierarchy"
 msgstr "Hierarhija"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -8874,6 +8922,12 @@ msgstr "Apzīmējuma izmēra vienība"
 msgid "Label threshold"
 msgstr "Apzīmējuma slieksnis"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 msgid "Labelling"
 msgstr "Apzīmēšana"
 
@@ -9350,6 +9404,9 @@ msgstr "Garums un platums"
 msgid "Longitude of default viewport"
 msgstr "Noklusējuma skata garums"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -9363,6 +9420,9 @@ msgstr ""
 
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "Apakšējam slieksnim jābūt zemākam par augšējo slieksni"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "MAR"
@@ -9964,6 +10024,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "Pārvieto norādīto datumu kopu par noteiktu intervālu."
 
+msgid "Moving averages"
+msgstr ""
+
 msgid "Multi-Dimensions"
 msgstr "Daudzdimensiju"
 
@@ -10070,6 +10133,11 @@ msgstr "Mērķa mezglu nosaukums"
 
 msgid "Name of your tag"
 msgstr "Jūsu birkas nosaukums"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 msgid "Name your database"
 msgstr "Nosauciet savu datubāzi"
@@ -10396,6 +10464,11 @@ msgstr "Neviens -> Bulta"
 msgid "None -> None"
 msgstr "Neviens -> Neviens"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "Normāls"
 
@@ -10585,6 +10658,9 @@ msgstr "OAuth2 klienta informācija"
 msgid "OCT"
 msgstr "OKT"
 
+msgid "OHLC"
+msgstr ""
+
 msgid "OK"
 msgstr "Labi"
 
@@ -10743,6 +10819,9 @@ msgstr ""
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Caurspīdīgums, paredzētas vērtības no 0 līdz 100"
 
+msgid "Open"
+msgstr ""
+
 msgid "Open Datasource tab"
 msgstr "Atvērt datu avota cilni"
 
@@ -10777,6 +10856,9 @@ msgstr "Atvērt SQL laboratorijā"
 msgid "Open query in SQL Lab"
 msgstr "Atvērt vaicājumu SQL laboratorijā"
 
+msgid "Opening value for each period."
+msgstr ""
+
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
@@ -10807,6 +10889,11 @@ msgstr "Neobligāta d3 datuma formāta virkne"
 
 msgid "Optional d3 number format string"
 msgstr "Neobligāta d3 skaitļu formāta virkne"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -10932,6 +11019,11 @@ msgstr ""
 "filtriem\", lai nobīdītu salīdzināšanas laika diapazonu par tādu pašu "
 "garumu kā jūsu laika diapazons, un izmantojiet \"Pielāgots\", lai "
 "iestatītu pielāgotu salīdzināšanas diapazonu."
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -11515,6 +11607,12 @@ msgstr "Prefikss vai piedēklis"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -13570,6 +13668,9 @@ msgstr "Sērijas stils"
 msgid "Series chart type (line, bar etc)"
 msgstr "Sērijas diagrammas veids (līnija, josla utt.)"
 
+msgid "Series colors"
+msgstr ""
+
 msgid "Series decrease setting"
 msgstr "Sērijas samazināšanas iestatījums"
 
@@ -13579,8 +13680,14 @@ msgstr "Sērijas palielinājuma iestatījums"
 msgid "Series limit"
 msgstr "Sēriju ierobežojums"
 
+msgid "Series name"
+msgstr ""
+
 msgid "Series settings"
 msgstr "Sērijas iestatījumi"
+
+msgid "Series style"
+msgstr ""
 
 msgid "Series total setting"
 msgstr "Sērijas kopējie iestatījumi"
@@ -13904,6 +14011,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -15394,6 +15504,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -16555,6 +16671,12 @@ msgstr ""
 "                  skata jāpārsūta uz diagrammu, kas satur anotāciju datus."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
@@ -18532,6 +18654,12 @@ msgstr "Kad ir norādīta sekundārā metrika, tiek izmantota lineāra krāsu sk
 
 msgid "When checked, the map will zoom to your data after each query"
 msgstr "Atzīmējot, karte pēc katra vaicājuma tuvināsies jūsu datiem"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 msgid ""
 "When enabled, the axis will display labels for the minimum and maximum "

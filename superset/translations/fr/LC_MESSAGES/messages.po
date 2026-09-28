@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2025-06-26 15:34+0200\n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -1010,6 +1010,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -3261,6 +3267,17 @@ msgstr "Annuler la requête lors de l'événement de déchargement de la fenêtr
 msgid "Cancellation not available due to missing abort handler"
 msgstr "Annulation impossible en raison d'un gestionnaire d'annulation manquant"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 msgid "Cannot access the query"
 msgstr "Impossible d'accéder à la requête"
 
@@ -4034,6 +4051,9 @@ msgstr "Fermer l'onglet"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 msgid "Cluster label aggregator"
 msgstr "Agrégateur d'étiquettes en grappe"
 
@@ -4116,6 +4136,9 @@ msgstr "Points de rupture de couleur"
 msgid "Color by"
 msgstr "Colorer par"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid "Color field must be a hex color (#rrggbb) or 'rgb(r, g, b)'"
@@ -4143,6 +4166,14 @@ msgstr "Couleur de l'emplacement de la cible"
 
 msgid "Color scheme"
 msgstr "Schéma de couleurs"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 msgid ""
 "Color will be shaded based the normalized (0% to 100%) value of a given "
@@ -5118,6 +5149,9 @@ msgstr "Le tableau de bord n'a pas pu être restauré."
 msgid "Dashboard could not be updated."
 msgstr "Le tableau de bord n'a pas pu être mis à jour."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Le tableau de bord n'existe pas"
 
@@ -5126,6 +5160,9 @@ msgstr "Le tableau de bord a été exporté comme exemple avec succès."
 
 msgid "Dashboard exported successfully"
 msgstr "Le tableau de bord a été exporté avec succès."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Tableau de bord importé"
@@ -7116,9 +7153,6 @@ msgstr "Export Excel"
 msgid "Excel XML Export"
 msgstr "Export Excel XML"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Le format du fichier Excel ne peut pas être déterminé"
 
@@ -7283,6 +7317,11 @@ msgstr "Exporter vers .CSV original"
 
 msgid "Export to pivoted .CSV"
 msgstr "Exporter vers .CSV pivoté"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -7762,6 +7801,9 @@ msgstr ""
 "groupe = « region »), la clause du filtre qui s'appliquerait serait "
 "(department = « Finance » OR department = « Marketing ») AND (region = « "
 "Europe »)."
+
+msgid "Financial"
+msgstr ""
 
 msgid "Find"
 msgstr "Rechercher"
@@ -8255,7 +8297,13 @@ msgstr "Masquer la ligne de la série temporelle"
 msgid "Hierarchy"
 msgstr "Hiérarchie"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -8978,6 +9026,12 @@ msgstr "Unité de la taille de l'étiquette"
 msgid "Label threshold"
 msgstr "Seuil d'étiquette"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 msgid "Labelling"
 msgstr "Étiquetage"
 
@@ -9452,6 +9506,9 @@ msgstr "Longitude et latitude"
 msgid "Longitude of default viewport"
 msgstr "Longitude de la fenêtre de visualisation par défaut"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -9465,6 +9522,9 @@ msgstr ""
 
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "Le seuil inférieur doit être inférieur au seuil supérieur"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "MAR"
@@ -10064,6 +10124,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "Décale l'ensemble de dates d'un intervalle spécifié."
 
+msgid "Moving averages"
+msgstr ""
+
 msgid "Multi-Dimensions"
 msgstr "Multi-dimensions"
 
@@ -10168,6 +10231,11 @@ msgstr "Nom des nœuds cibles"
 
 msgid "Name of your tag"
 msgstr "Nommez votre étiquette"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 msgid "Name your database"
 msgstr "Nom de votre base de données"
@@ -10496,6 +10564,11 @@ msgstr "Aucun -> Flèche"
 msgid "None -> None"
 msgstr "Aucun -> Aucun"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "Normal"
 
@@ -10692,6 +10765,9 @@ msgstr "Informations du client OAuth2"
 msgid "OCT"
 msgstr "OCT"
 
+msgid "OHLC"
+msgstr ""
+
 msgid "OK"
 msgstr "OK"
 
@@ -10854,6 +10930,9 @@ msgstr "Opacité des bulles, 0 signifie complètement transparent, 1 signifie op
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Opacité, attend des valeurs entre 0 et 100"
 
+msgid "Open"
+msgstr ""
+
 msgid "Open Datasource tab"
 msgstr "Ouvrir l'onglet Source de données"
 
@@ -10886,6 +10965,9 @@ msgstr "Ouvrir dans SQL Lab"
 msgid "Open query in SQL Lab"
 msgstr "Ouvrir une requête dans SQL Lab"
 
+msgid "Opening value for each period."
+msgstr ""
+
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
@@ -10917,6 +10999,11 @@ msgstr "Format de date d3 facultatif"
 
 msgid "Optional d3 number format string"
 msgstr "Format de nombre d3 facultatif"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -11047,6 +11134,11 @@ msgstr ""
 "filtres temporels » pour décaler la plage de comparaison de la même durée"
 " que votre plage temporelle, et « Personnalisé » pour définir une plage "
 "personnalisée."
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -11635,6 +11727,12 @@ msgstr "Préfixe ou suffixe"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -13703,6 +13801,9 @@ msgstr "Style de série"
 msgid "Series chart type (line, bar etc)"
 msgstr "Type de graphique de la série (ligne, barre, etc.)"
 
+msgid "Series colors"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Series decrease setting"
@@ -13716,8 +13817,14 @@ msgstr "Paramètre d'augmentation de série"
 msgid "Series limit"
 msgstr "Limite de série"
 
+msgid "Series name"
+msgstr ""
+
 msgid "Series settings"
 msgstr "Paramètres des séries"
+
+msgid "Series style"
+msgstr ""
 
 msgid "Series total setting"
 msgstr "Paramètres du total des séries"
@@ -14048,6 +14155,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -15573,6 +15683,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -16818,6 +16934,12 @@ msgstr ""
 
 msgid "This dashboard does not exist"
 msgstr "Ce tableau de bord n'existe pas"
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
+msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
 msgstr ""
@@ -18849,6 +18971,12 @@ msgid "When checked, the map will zoom to your data after each query"
 msgstr ""
 "Si cette option est cochée, la carte sera zoomée sur vos données après "
 "chaque requête"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 msgid ""
 "When enabled, the axis will display labels for the minimum and maximum "

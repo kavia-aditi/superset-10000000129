@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Superset\n"
 "Report-Msgid-Bugs-To: dkrat7 @github.com\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2026-07-29 16:16+0200\n"
 "Last-Translator: lapor-kris <lapor-kris@github.com>\n"
 "Language: sl_SI\n"
@@ -1072,6 +1072,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -3274,6 +3280,17 @@ msgstr "Prekini poizvedbo pri dogodku zaprtja okna (window unload event)"
 msgid "Cancellation not available due to missing abort handler"
 msgstr "Preklic ni na voljo zaradi manjkajočega upravljalnika za prekinitev"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 msgid "Cannot access the query"
 msgstr "Dostop do poizvedbe ni mogoč"
 
@@ -4050,6 +4067,9 @@ msgstr "Zapri zavihek"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 msgid "Cluster label aggregator"
 msgstr "Agregator za oznako gruče"
 
@@ -4132,6 +4152,9 @@ msgstr "Barvne mejne točke"
 msgid "Color by"
 msgstr "Barva glede na"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid "Color field must be a hex color (#rrggbb) or 'rgb(r, g, b)'"
@@ -4157,6 +4180,14 @@ msgstr "Barva ciljne lokacije"
 
 msgid "Color scheme"
 msgstr "Barvna shema"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 msgid ""
 "Color will be shaded based the normalized (0% to 100%) value of a given "
@@ -5130,6 +5161,9 @@ msgstr "Nadzorne plošče ni bilo mogoče obnoviti."
 msgid "Dashboard could not be updated."
 msgstr "Nadzorne plošče ni mogoče posodobiti."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Nadzorna plošča ne obstaja"
 
@@ -5138,6 +5172,9 @@ msgstr "Nadzorna plošča je uspešno izvožena kot primer"
 
 msgid "Dashboard exported successfully"
 msgstr "Nadzorna plošča je bila uspešno izvožena"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Nadzorna plošča uvožena"
@@ -7146,9 +7183,6 @@ msgstr "Izvoz v Excel"
 msgid "Excel XML Export"
 msgstr "Izvoz v Excel XML"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Ni mogoče določiti formata Excel-ove datoteke"
 
@@ -7314,6 +7348,11 @@ msgstr "Izvozi v izvorni .CSV"
 
 msgid "Export to pivoted .CSV"
 msgstr "Izvozi v vrtilni .CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -7805,6 +7844,9 @@ msgstr ""
 "izraz (oddelek = 'Finance' OR oddelek = 'Marketing') AND (regija = "
 "'Evropa')."
 
+msgid "Financial"
+msgstr ""
+
 msgid "Find"
 msgstr "Najdi"
 
@@ -8295,7 +8337,13 @@ msgstr "Skrije črto časovne serije"
 msgid "Hierarchy"
 msgstr "Hierarhija"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -9014,6 +9062,12 @@ msgstr "Enota velikosti oznake"
 msgid "Label threshold"
 msgstr "Prag oznak"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 msgid "Labelling"
 msgstr "Oznake"
 
@@ -9491,6 +9545,9 @@ msgstr "Dolžina in širina"
 msgid "Longitude of default viewport"
 msgstr "Dolžina privzetega pogleda"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -9504,6 +9561,9 @@ msgstr ""
 
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "Spodnji prag mora biti manjši od zgornjega"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "MAR"
@@ -10119,6 +10179,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "Premakne dani nabor datumov za definirano obdobje."
 
+msgid "Moving averages"
+msgstr ""
+
 msgid "Multi-Dimensions"
 msgstr "Večdimenzionalni"
 
@@ -10223,6 +10286,11 @@ msgstr "Imena ciljnih vozlišč"
 
 msgid "Name of your tag"
 msgstr "Ime vaše oznake"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 msgid "Name your database"
 msgstr "Poimenujte podatkovno bazo"
@@ -10546,6 +10614,11 @@ msgstr "Brez -> Puščica"
 msgid "None -> None"
 msgstr "Brez -> Brez"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "Normalno"
 
@@ -10737,6 +10810,9 @@ msgstr "Podatki o odjemalcu OAuth2"
 msgid "OCT"
 msgstr "OKT"
 
+msgid "OHLC"
+msgstr ""
+
 msgid "OK"
 msgstr "OK"
 
@@ -10887,6 +10963,9 @@ msgstr "Vrednost 0 pomeni popolno prosojnost, 1 pa neprosojnost"
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Prosojnost, vnesite vrednosti med 0 in 100"
 
+msgid "Open"
+msgstr ""
+
 msgid "Open Datasource tab"
 msgstr "Odpri zavihek s podatkovnim virom"
 
@@ -10919,6 +10998,9 @@ msgstr "Odpri v SQL Labu"
 msgid "Open query in SQL Lab"
 msgstr "Odpri poizvedbo v SQL laboratoriju"
 
+msgid "Opening value for each period."
+msgstr ""
+
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
@@ -10949,6 +11031,11 @@ msgstr "Opcijski niz za d3-oblikovanje datuma"
 
 msgid "Optional d3 number format string"
 msgstr "Opcijski niz za d3-oblikovanje števila"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -11073,6 +11160,11 @@ msgstr ""
 "obdobje iz časovnega filtra\", da časovno obdobje za primerjavo "
 "premaknete za enako dolžino kot vaše časovno obdobje in uporabite "
 "\"Prilagojeno\" za poljubno obdobje za primerjavo."
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -11664,6 +11756,12 @@ msgstr "Predpona ali pripona"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -13715,6 +13813,9 @@ msgstr "Slog serije"
 msgid "Series chart type (line, bar etc)"
 msgstr "Tip grafikona za posamezno podatkovno serijo (črtni, stolpčni, ...)"
 
+msgid "Series colors"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Series decrease setting"
@@ -13728,8 +13829,14 @@ msgstr "Nastavitev povečanja serije"
 msgid "Series limit"
 msgstr "Omejitev števila serij"
 
+msgid "Series name"
+msgstr ""
+
 msgid "Series settings"
 msgstr "Nastavitve serije"
+
+msgid "Series style"
+msgstr ""
 
 msgid "Series total setting"
 msgstr "Skupna nastavitev serije"
@@ -14064,6 +14171,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -15568,6 +15678,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -16727,6 +16843,12 @@ msgstr ""
 
 msgid "This dashboard does not exist"
 msgstr "Ta nadzorna plošča ne obstaja"
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
+msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
 msgstr ""
@@ -18748,6 +18870,12 @@ msgstr "Če je podana sekundarna metrika, je uporabljena linearna barvna skala."
 
 msgid "When checked, the map will zoom to your data after each query"
 msgstr "Če želite, da se zemljevid prilagodi vašim podatkom po vsaki poizvedbi"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 msgid ""
 "When enabled, the axis will display labels for the minimum and maximum "

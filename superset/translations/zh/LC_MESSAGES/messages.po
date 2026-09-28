@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apache Superset 0.22.1\n"
 "Report-Msgid-Bugs-To: zhouyao94@qq.com\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2019-01-04 22:19+0800\n"
 "Last-Translator: cdmikechen\n"
 "Language: zh\n"
@@ -1039,6 +1039,12 @@ msgstr "临时状态需要 TTL。"
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 #, fuzzy
@@ -3257,6 +3263,17 @@ msgstr "当窗口关闭时取消查询"
 msgid "Cancellation not available due to missing abort handler"
 msgstr "由于缺少中止处理程序，无法取消"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 msgid "Cannot access the query"
 msgstr "无法访问查询"
 
@@ -4043,6 +4060,9 @@ msgstr "关闭选项卡"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 msgid "Cluster label aggregator"
 msgstr "聚类标签聚合器"
 
@@ -4129,6 +4149,9 @@ msgstr "颜色断点"
 msgid "Color by"
 msgstr "按颜色"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid "Color field must be a hex color (#rrggbb) or 'rgb(r, g, b)'"
@@ -4155,6 +4178,14 @@ msgstr "目标位置的颜色"
 
 msgid "Color scheme"
 msgstr "配色方案"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -5177,6 +5208,9 @@ msgstr "看板无法被恢复。"
 msgid "Dashboard could not be updated."
 msgstr "看板无法更新。"
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "看板不存在"
 
@@ -5185,6 +5219,9 @@ msgstr "看板已成功导出为示例。"
 
 msgid "Dashboard exported successfully"
 msgstr "看板已成功导出。"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 #, fuzzy
 msgid "Dashboard imported"
@@ -7181,9 +7218,6 @@ msgstr "Excel 导出"
 msgid "Excel XML Export"
 msgstr "Excel XML 导出"
 
-msgid "Excel export is not configured on this server."
-msgstr "此服务器上未配置 Excel 导出功能。"
-
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, fuzzy
@@ -7366,6 +7400,11 @@ msgstr "导出原始CSV"
 
 msgid "Export to pivoted .CSV"
 msgstr "导出为透视表形式的CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -7879,6 +7918,9 @@ msgstr ""
 " (group key = 'department')，其中一个表示欧洲地区(group key = "
 "'region')，filter子句将应用过滤 (department = 'Finance' OR department = "
 "'Marketing') 和 (region = 'Europe')"
+
+msgid "Financial"
+msgstr ""
 
 #, fuzzy
 msgid "Find"
@@ -8394,7 +8436,13 @@ msgstr "隐藏时间序列的线"
 msgid "Hierarchy"
 msgstr "层次"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -9155,6 +9203,12 @@ msgstr "标签大小单位"
 msgid "Label threshold"
 msgstr "标签阈值"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 msgid "Labelling"
 msgstr "标签"
 
@@ -9656,6 +9710,9 @@ msgstr "经度/纬度"
 msgid "Longitude of default viewport"
 msgstr "默认视口经度"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -9670,6 +9727,9 @@ msgstr "色标的下限。当同时设置起始值和结束值时，图例使用
 
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "阈值下限必须比阈值上限小"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "三月"
@@ -10309,6 +10369,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "将给定的日期集以指定的间隔进行移动"
 
+msgid "Moving averages"
+msgstr ""
+
 msgid "Multi-Dimensions"
 msgstr "多维度"
 
@@ -10418,6 +10481,11 @@ msgstr "目标节点名称"
 #, fuzzy
 msgid "Name of your tag"
 msgstr "标签的名称"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 msgid "Name your database"
 msgstr "为您的数据库命名"
@@ -10764,6 +10832,11 @@ msgstr "无 -> 箭头"
 msgid "None -> None"
 msgstr "无->无"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "正常"
 
@@ -10972,6 +11045,9 @@ msgstr "OAuth2 客户端信息"
 msgid "OCT"
 msgstr "十月"
 
+msgid "OHLC"
+msgstr ""
+
 msgid "OK"
 msgstr "确认"
 
@@ -11131,6 +11207,9 @@ msgstr "气泡的不透明度，0表示完全透明，1表示不透明"
 msgid "Opacity, expects values between 0 and 100"
 msgstr "不透明度，期望值在0到100之间"
 
+msgid "Open"
+msgstr ""
+
 msgid "Open Datasource tab"
 msgstr "打开数据源选项卡"
 
@@ -11163,6 +11242,9 @@ msgstr "在 SQL Lab 中打开"
 msgid "Open query in SQL Lab"
 msgstr "在 SQL Lab 中打开查询"
 
+msgid "Opening value for each period."
+msgstr ""
+
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
@@ -11187,6 +11269,11 @@ msgstr "可选的 d3 日期格式字符串"
 
 msgid "Optional d3 number format string"
 msgstr "可选的 d3 数字格式字符串"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -11302,6 +11389,11 @@ msgid ""
 "the comparison time range by the same length as your time range and use "
 "\"Custom\" to set a custom comparison range."
 msgstr "从相对时间段覆盖结果。期望自然语言中的相对时间增量（例如：24小时、7天、52周、365天）。支持自由文本。使用“从时间筛选器继承范围”来将比较时间范围偏移与您的时间范围相同的长度，并使用“自定义”来设置自定义比较范围。"
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -11929,6 +12021,12 @@ msgstr "前缀或者后缀"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -14024,6 +14122,9 @@ msgstr "系列样式"
 msgid "Series chart type (line, bar etc)"
 msgstr "系列图表类型(折线，柱状图等)"
 
+msgid "Series colors"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Series decrease setting"
@@ -14037,8 +14138,14 @@ msgstr "系列增加设置"
 msgid "Series limit"
 msgstr "系列限制"
 
+msgid "Series name"
+msgstr ""
+
 msgid "Series settings"
 msgstr "系列设置"
+
+msgid "Series style"
+msgstr ""
 
 msgid "Series total setting"
 msgstr "系列总计设置"
@@ -14377,6 +14484,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -15900,6 +16010,12 @@ msgid ""
 msgstr "以下图表因导出时发生错误而被省略："
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr "以下图表因没有已保存的查询上下文而被省略。要包含它们，请在 Explore 中打开每个图表并重新保存。"
@@ -17001,6 +17117,12 @@ msgstr "此设置控制当前视图中的时间粒度字段是否应传递到包
 
 msgid "This dashboard does not exist"
 msgstr "看板不存在"
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -19023,6 +19145,12 @@ msgstr "当提供次计量指标时，会使用线性色阶。"
 
 msgid "When checked, the map will zoom to your data after each query"
 msgstr "勾选后，每次查询后地图将自动缩放至您的数据范围"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 msgid ""
 "When enabled, the axis will display labels for the minimum and maximum "

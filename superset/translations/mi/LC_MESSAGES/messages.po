@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2026-01-25 16:09+1300\n"
 "Last-Translator: karo.co.nz\n"
 "Language: mi\n"
@@ -1024,6 +1024,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 #, fuzzy
@@ -3316,6 +3322,17 @@ msgstr "Whakakore pātai i te kaupapa tāruarunga matapihi"
 msgid "Cancellation not available due to missing abort handler"
 msgstr "Kāore e taea ana te whakakore nā te kore o te kaitiaki whakamutu"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 msgid "Cannot access the query"
 msgstr "Kāore e taea te uru ki te pātai"
 
@@ -4131,6 +4148,9 @@ msgstr "Kati ripa"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 msgid "Cluster label aggregator"
 msgstr "Kaiwhakaārotau tapanga rāpaki"
 
@@ -4222,6 +4242,9 @@ msgstr "Tohu wehe peeke"
 msgid "Color by"
 msgstr "Tae mā"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 #, fuzzy
@@ -4250,6 +4273,14 @@ msgstr "Tae o te wāhi whāinga"
 
 msgid "Color scheme"
 msgstr "Kaupapa tae"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 msgid ""
 "Color will be shaded based the normalized (0% to 100%) value of a given "
@@ -5251,6 +5282,9 @@ msgstr "Kāore i taea te whakahoki i te papatohu."
 msgid "Dashboard could not be updated."
 msgstr "Kāore i taea te whakahou i te papatohu."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Karekau te papatohu"
 
@@ -5261,6 +5295,9 @@ msgstr "I tiakina pai tēnei papatohu."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "I tiakina pai tēnei papatohu."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Papatohu kua kawemaihia"
@@ -7340,9 +7377,6 @@ msgstr "Pūrongo Ia Wiki"
 msgid "Excel XML Export"
 msgstr "Pūrongo Ia Wiki"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Kāore e taea te whakatau i te hōputu kōnae Excel"
 
@@ -7517,6 +7551,11 @@ msgstr "Kaweatu ki .CSV taketake"
 
 msgid "Export to pivoted .CSV"
 msgstr "Kaweatu ki .CSV hurihuri"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -8024,6 +8063,9 @@ msgstr ""
 "tari Pūtea me Hokohoko (kī rōpū = 'tari'), ā, ko tētahi e tohu ana ki te "
 "rohe Ūropi (kī rōpū = 'rohe'), ka whakahaeretia e te rerenga tātari te "
 "tātari (tari = 'Pūtea' OR tari = 'Hokohoko') AND (rohe = 'Ūropi')."
+
+msgid "Financial"
+msgstr ""
 
 msgid "Find"
 msgstr "Kimi"
@@ -8557,7 +8599,13 @@ msgstr "Ka hunaia te Rārangi mō te raupapa wā"
 msgid "Hierarchy"
 msgstr "Taumata"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -9321,6 +9369,12 @@ msgstr "Rārangi Tapanga"
 msgid "Label threshold"
 msgstr "Paepae tapanga"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 msgid "Labelling"
 msgstr "Tapanga"
 
@@ -9816,6 +9870,9 @@ msgstr "Longitude me Latitude"
 msgid "Longitude of default viewport"
 msgstr "Longitude o te tirohanga taunoa"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -9829,6 +9886,9 @@ msgstr ""
 
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "Me iti ake te paepae raro i te paepae runga"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "MAH"
@@ -10451,6 +10511,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "Ka neke i te huinga rā kua tukuna mā tētahi wā kua tohua."
 
+msgid "Moving averages"
+msgstr ""
+
 msgid "Multi-Dimensions"
 msgstr "Āhuahanga-Maha"
 
@@ -10557,6 +10620,11 @@ msgstr "Ingoa o ngā pona whāinga"
 
 msgid "Name of your tag"
 msgstr "Ingoa o tō tohu"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 msgid "Name your database"
 msgstr "Tohua he ingoa mō tō pātengi raraunga"
@@ -10898,6 +10966,11 @@ msgstr "Kāore -> Pere"
 msgid "None -> None"
 msgstr "Kāore -> Kāore"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "Noa"
 
@@ -11098,6 +11171,9 @@ msgstr "Mōhiohio taketake"
 msgid "OCT"
 msgstr "OKO"
 
+msgid "OHLC"
+msgstr ""
+
 msgid "OK"
 msgstr "PAI"
 
@@ -11258,6 +11334,9 @@ msgstr "Ataata o ngā pōro, 0 he ataata katoa, 1 he kino"
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Ataata, e tūmanako ana i ngā uara i waenga i te 0 me te 100"
 
+msgid "Open"
+msgstr ""
+
 msgid "Open Datasource tab"
 msgstr "Huaki ripa Puna Raraunga"
 
@@ -11294,6 +11373,9 @@ msgstr "Huaki i SQL Lab"
 msgid "Open query in SQL Lab"
 msgstr "Huaki pātai i SQL Lab"
 
+msgid "Opening value for each period."
+msgstr ""
+
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
@@ -11324,6 +11406,11 @@ msgstr "Aho hōputu rā d3 kōwhiringa"
 
 msgid "Optional d3 number format string"
 msgstr "Aho hōputu tau d3 kōwhiringa"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -11441,6 +11528,11 @@ msgid ""
 "the comparison time range by the same length as your time range and use "
 "\"Custom\" to set a custom comparison range."
 msgstr "Whakakapi awhe wā"
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -12060,6 +12152,12 @@ msgstr "Kūmua, kūmuri rānei"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -14225,6 +14323,9 @@ msgstr "Kāhua Raupapa"
 msgid "Series chart type (line, bar etc)"
 msgstr "Momo kauwhata raupapa (rārangi, pae me ērā atu)"
 
+msgid "Series colors"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 #, fuzzy
@@ -14240,9 +14341,15 @@ msgstr "Tautuhinga pikinga raupapa"
 msgid "Series limit"
 msgstr "Tepe raupapa"
 
+msgid "Series name"
+msgstr ""
+
 #, fuzzy
 msgid "Series settings"
 msgstr "Tautuhinga kōnae"
+
+msgid "Series style"
+msgstr ""
 
 #, fuzzy
 msgid "Series total setting"
@@ -14594,6 +14701,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -16156,6 +16266,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -17380,6 +17496,12 @@ msgid ""
 msgstr "Ka whakahaere tēnei mēnā me tuku iho rānei te āpure māeneene wā mai i te"
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
@@ -19496,6 +19618,12 @@ msgstr "Ina tukuna tētahi ine tuarua, ka whakamahia tētahi tauine tae rārangi
 
 msgid "When checked, the map will zoom to your data after each query"
 msgstr "Ina pātia, ka topa te mahere ki ō raraunga i muri i ia pātai"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 #, fuzzy
 msgid ""

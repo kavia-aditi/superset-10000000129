@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fi\n"
@@ -1461,6 +1461,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: fr, ja, lv,
@@ -5221,6 +5227,17 @@ msgstr "Peruuta kysely ikkunan sulkemistapahtumassa"
 msgid "Cancellation not available due to missing abort handler"
 msgstr "Peruutus ei ole käytettävissä puuttuvan keskeyttämiskäsittelijän vuoksi"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -6516,6 +6533,9 @@ msgstr "Sulje välilehti"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -6663,6 +6683,9 @@ msgstr "Värikynnysarvot"
 msgid "Color by"
 msgstr "Väri mukaan"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 #, fuzzy
@@ -6705,6 +6728,14 @@ msgstr "Kohteen sijainnin väri"
 #, fuzzy
 msgid "Color scheme"
 msgstr "Värikaava"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ru, sk, sl, uk]
@@ -8349,6 +8380,9 @@ msgstr "Koontinäyttöä ei voitu palauttaa."
 msgid "Dashboard could not be updated."
 msgstr "Kojelautaa ei voitu päivittää."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, ko, lv, mi, nl, pl, pt_BR, ru, sk, sl, tr, uk, zh,
 # zh_TW]
@@ -8367,6 +8401,9 @@ msgstr "Kojelauta vietiin onnistuneesti esimerkkinä"
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "Kojelauta vietiin onnistuneesti"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, ja, lv, mi, nl, pt_BR, ru, sk, sl, tr, uk]
@@ -11772,9 +11809,6 @@ msgstr "Excel-vienti"
 msgid "Excel XML Export"
 msgstr "Excel XML -vienti"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ru, sk, sl, uk]
 #, fuzzy
@@ -12075,6 +12109,11 @@ msgstr "Vie alkuperäiseen .CSV-tiedostoon"
 #, fuzzy
 msgid "Export to pivoted .CSV"
 msgstr "Vie pivot-muotoiseen .CSV-tiedostoon"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -12836,6 +12875,9 @@ msgstr ""
 "(ryhmäavain = 'region'), suodatinlauseke soveltaisi suodatinta "
 "(department = 'Finance' OR department = 'Marketing') AND (region = "
 "'Europe')."
+
+msgid "Financial"
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, ja, lv, mi, nl, ru, sk, sl, tr, uk]
@@ -13695,7 +13737,13 @@ msgstr "Piilottaa aikasarjan viivan"
 msgid "Hierarchy"
 msgstr "Hierarkia"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -14953,6 +15001,12 @@ msgstr "Merkinnän koon yksikkö"
 msgid "Label threshold"
 msgstr "Merkinnän kynnysarvo"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -15781,6 +15835,9 @@ msgstr "Pituusaste ja leveysaste"
 msgid "Longitude of default viewport"
 msgstr "Oletusikkunan pituusaste"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -15800,6 +15857,9 @@ msgstr ""
 #, fuzzy
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "Alemman kynnysarvon on oltava pienempi kuin ylemmän kynnysarvon"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, tr, uk, zh, zh_TW]
@@ -16819,6 +16879,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "Siirtää annetun päivämääräjoukon määritetyn välin verran."
 
+msgid "Moving averages"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -17007,6 +17070,11 @@ msgstr "Kohdesolmujen nimi"
 #, fuzzy
 msgid "Name of your tag"
 msgstr "Tunnisteesi nimi"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
@@ -17599,6 +17667,11 @@ msgstr "Ei mitään -> Nuoli"
 msgid "None -> None"
 msgstr "Ei mitään -> Ei mitään"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -17945,6 +18018,9 @@ msgstr "OAuth2-asiakastiedot"
 msgid "OCT"
 msgstr "LOKA"
 
+msgid "OHLC"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -18208,6 +18284,9 @@ msgstr ""
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Peittävyys, odottaa arvoja välillä 0 ja 100"
 
+msgid "Open"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, it, ja, ko, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh,
 # zh_TW]
@@ -18260,6 +18339,9 @@ msgstr "Avaa SQL labissa"
 msgid "Open query in SQL Lab"
 msgstr "Avaa kysely SQL Labissa"
 
+msgid "Opening value for each period."
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, fuzzy
@@ -18307,6 +18389,11 @@ msgstr "Valinnainen d3-päivämäärämuodon merkkijono"
 #, fuzzy
 msgid "Optional d3 number format string"
 msgstr "Valinnainen d3-lukumuodon merkkijono"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -18501,6 +18588,11 @@ msgstr ""
 "aikasuodattimista\" siirtääksesi vertailuaikaväliä yhtä pitkälle kuin oma"
 " aikaväliäsi ja käytä \"Mukautettu\" asettaaksesi mukautetun "
 "vertailuvälin."
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk]
@@ -19526,6 +19618,12 @@ msgstr "Etuliite tai jälkiliite"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -23029,6 +23127,9 @@ msgstr "Sarjan tyyli"
 msgid "Series chart type (line, bar etc)"
 msgstr "Sarjan kaaviotyyppi (viiva, palkki jne.)"
 
+msgid "Series colors"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, ja, lv,
 # ru, sk, uk]
 #, fuzzy
@@ -23047,11 +23148,17 @@ msgstr "Sarjan kasvuasetus"
 msgid "Series limit"
 msgstr "Sarjojen raja"
 
+msgid "Series name"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja, lv, ru,
 # uk]
 #, fuzzy
 msgid "Series settings"
 msgstr "Sarjan asetukset"
+
+msgid "Series style"
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja, lv, ru,
 # uk]
@@ -23606,6 +23713,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -26035,6 +26145,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -27784,6 +27900,12 @@ msgstr ""
 "annotaatiotietoja sisältävälle kaaviolle."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -30923,6 +31045,12 @@ msgstr "Kun toissijainen mittari on annettu, käytetään lineaarista väriastei
 #, fuzzy
 msgid "When checked, the map will zoom to your data after each query"
 msgstr "Kun valittu, kartta zoomaa tietoihisi jokaisen kyselyn jälkeen"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, ja, lv,
 # ru, sk, uk]

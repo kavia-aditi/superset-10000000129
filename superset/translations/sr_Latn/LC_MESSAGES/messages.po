@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2026-06-14 13:20+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sr_Latn\n"
@@ -1188,6 +1188,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 # ru, sk, uk]
@@ -3888,6 +3894,17 @@ msgstr "Otkaži upit pri događaju zatvaranja prozora"
 msgid "Cancellation not available due to missing abort handler"
 msgstr "Otkazivanje nije moguće zbog nedostatka upravljača prekidom"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Cannot access the query"
 msgstr "Nije moguće pristupiti upitu"
@@ -4829,6 +4846,9 @@ msgstr "Zatvori karticu"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Cluster label aggregator"
 msgstr "Agregator oznaka klastera"
@@ -4925,6 +4945,9 @@ msgstr "Prelomne tačke boje"
 msgid "Color by"
 msgstr "Boja po"
 
+msgid "Color by direction"
+msgstr ""
+
 msgid "Color field must be a hex color (#rrggbb) or 'rgb(r, g, b)'"
 msgstr "Polje za boju mora biti heksadecimalna boja (#rrggbb) ili 'rgb(r, g, b)'"
 
@@ -4954,6 +4977,14 @@ msgstr "Boja ciljne lokacije"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Color scheme"
 msgstr "Šema boja"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, ru, sk, sl, uk]
 msgid ""
@@ -6128,6 +6159,9 @@ msgstr "Kontrolni panel nije mogao biti vraćen."
 msgid "Dashboard could not be updated."
 msgstr "Kontrolna tabla nije mogla biti ažurirana."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 # de, es, fa, fr, ja, ko, lv, mi, nl, pl, pt_BR, ru, sk, sl, tr, uk, zh,
 # zh_TW]
 msgid "Dashboard does not exist"
@@ -6140,6 +6174,9 @@ msgstr "Kontrolna tabla je uspešno izvezena kao primer"
 # uk]
 msgid "Dashboard exported successfully"
 msgstr "Kontrolna tabla je uspešno izvezena"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 # de, es, fa, ja, lv, mi, nl, pt_BR, ru, sk, sl, tr, uk]
 msgid "Dashboard imported"
@@ -8603,9 +8640,6 @@ msgstr "Izvoz u Excel"
 msgid "Excel XML Export"
 msgstr "Izvoz u Excel XML"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 # es, fa, fr, ja, lv, mi, pl, ru, sk, sl, uk]
 msgid "Excel file format cannot be determined"
 msgstr "Format Excel fajla ne može biti utvrđen"
@@ -8817,6 +8851,11 @@ msgstr "Izvezi u originalni .CSV"
 # de, es, fa, fr, ja, lv, mi, nl, pl, ru, sk, sl, uk, zh, zh_TW]
 msgid "Export to pivoted .CSV"
 msgstr "Izvezi u ukršteni .CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9372,6 +9411,9 @@ msgstr ""
 "Evropa (ključ grupe = 'region'), klauza filtera bi primenila filter "
 "(department = 'Finance' OR department = 'Marketing') AND (region = "
 "'Europe')."
+
+msgid "Financial"
+msgstr ""
 
 # de, es, fa, ja, lv, mi, nl, ru, sk, sl, tr, uk]
 msgid "Find"
@@ -9971,7 +10013,13 @@ msgstr "Sakriva liniju za vremensku seriju"
 msgid "Hierarchy"
 msgstr "Hijerarhija"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -10855,6 +10903,12 @@ msgstr "Jedinica veličine oznake"
 msgid "Label threshold"
 msgstr "Prag oznake"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Labelling"
 msgstr "Označavanje"
@@ -11440,6 +11494,9 @@ msgstr "Geografska dužina i širina"
 msgid "Longitude of default viewport"
 msgstr "Geografska dužina podrazumevanog prikaza"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -11455,6 +11512,9 @@ msgstr ""
 # de, es, fa, fr, ja, lv, mi, nl, pl, ru, sk, sl, uk, zh, zh_TW]
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "Donji prag mora biti manji od gornjeg praga"
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "MAR"
@@ -12162,6 +12222,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "Pomera dati skup datuma za navedeni interval."
 
+msgid "Moving averages"
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Multi-Dimensions"
 msgstr "Više dimenzija"
@@ -12292,6 +12355,11 @@ msgstr "Naziv ciljnih čvorova"
 # de, es, fa, ja, lv, mi, nl, ru, sk, sl, uk]
 msgid "Name of your tag"
 msgstr "Naziv vaše oznake"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Name your database"
@@ -12702,6 +12770,11 @@ msgstr "Ništa -> Strelica"
 msgid "None -> None"
 msgstr "Ništa -> Ništa"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Normal"
 msgstr "Normalno"
@@ -12942,6 +13015,9 @@ msgstr "Informacije o OAuth2 klijentu"
 msgid "OCT"
 msgstr "OKT"
 
+msgid "OHLC"
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "OK"
 msgstr "OK"
@@ -13130,6 +13206,9 @@ msgstr "Providnost balončića, 0 znači potpuno providno, 1 znači neprovidno"
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Providnost, očekuje vrednosti između 0 i 100"
 
+msgid "Open"
+msgstr ""
+
 # de, es, fa, fr, it, ja, ko, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh,
 # zh_TW]
 msgid "Open Datasource tab"
@@ -13172,6 +13251,9 @@ msgstr "Otvori u SQL Lab-u"
 msgid "Open query in SQL Lab"
 msgstr "Otvori upit u SQL Lab-u"
 
+msgid "Opening value for each period."
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
@@ -13208,6 +13290,11 @@ msgstr "Opcioni niz za d3 format datuma"
 # de, es, fa, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk]
 msgid "Optional d3 number format string"
 msgstr "Opcioni niz za d3 format broja"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -13355,6 +13442,11 @@ msgstr ""
 "iz vremenskih filtera\" da pomerite period za poređenje za istu dužinu "
 "kao vaš vremenski opseg, i koristite \"Prilagođeno\" da podesite "
 "prilagođeni opseg za poređenje."
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk]
 msgid ""
@@ -14077,6 +14169,12 @@ msgstr "Prefiks ili sufiks"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 # de, es, fa, fr, ja, ko, lv, mi, nl, pl, pt, pt_BR, ru, sk, sl, uk, zh,
@@ -16549,6 +16647,9 @@ msgstr "Stil serije"
 msgid "Series chart type (line, bar etc)"
 msgstr "Tip grafikona serije (linija, traka itd)"
 
+msgid "Series colors"
+msgstr ""
+
 # ru, sk, uk]
 msgid "Series decrease setting"
 msgstr "Podešavanje smanjenja serije"
@@ -16561,9 +16662,15 @@ msgstr "Podešavanje povećanja serije"
 msgid "Series limit"
 msgstr "Ograničenje serija"
 
+msgid "Series name"
+msgstr ""
+
 # uk]
 msgid "Series settings"
 msgstr "Podešavanja serija"
+
+msgid "Series style"
+msgstr ""
 
 # uk]
 msgid "Series total setting"
@@ -16963,6 +17070,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -18741,6 +18851,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -20087,6 +20203,12 @@ msgstr ""
 "podatke napomena."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk]
@@ -22431,6 +22553,12 @@ msgstr "Kada je navedena sekundarna mera, koristi se linearna skala boja."
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "When checked, the map will zoom to your data after each query"
 msgstr "Kada je označeno, mapa će se zumirati na vaše podatke nakon svakog upita"
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 # ru, sk, uk]
 msgid ""

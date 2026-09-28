@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-25 13:49-0700\n"
+"POT-Creation-Date: 2026-09-27 23:07-0700\n"
 "PO-Revision-Date: 2024-10-20 00:07+0330\n"
 "Last-Translator: Emad Rad <codewithemad@gmail.com>\n"
 "Language: fa\n"
@@ -1032,6 +1032,12 @@ msgstr ""
 msgid ""
 "A butterfly chart compares two metrics across categories using horizontal"
 " bars that extend left and right from a central axis."
+msgstr ""
+
+msgid ""
+"A candlestick chart shows opening, closing, high, and low values for each"
+" period. It is commonly used for financial and other time-series range "
+"analysis."
 msgstr ""
 
 #, fuzzy
@@ -3346,6 +3352,17 @@ msgstr "لغو کوئری در رویداد بارگذاری مجدد پنجره
 msgid "Cancellation not available due to missing abort handler"
 msgstr "لغو به دلیل نبود کنترل‌کننده قطع در دسترس نیست"
 
+msgid "Candlestick"
+msgstr ""
+
+msgid "Candlestick Chart"
+msgstr ""
+
+msgid ""
+"Candlestick draws a filled body between open and close. OHLC draws ticks "
+"for open and close on a high-low stem."
+msgstr ""
+
 msgid "Cannot access the query"
 msgstr "نمی‌توان به کوئری دسترسی پیدا کرد"
 
@@ -4164,6 +4181,9 @@ msgstr "بستن برگه"
 msgid "Close version history"
 msgstr ""
 
+msgid "Closing value for each period."
+msgstr ""
+
 msgid "Cluster label aggregator"
 msgstr "جمع‌آوری برچسب خوشه"
 
@@ -4255,6 +4275,9 @@ msgstr "نقاط شکسته سطل"
 msgid "Color by"
 msgstr "رنگ بر اساس"
 
+msgid "Color by direction"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 #, fuzzy
@@ -4283,6 +4306,14 @@ msgstr "رنگ مکان هدف"
 
 msgid "Color scheme"
 msgstr "طرح رنگ"
+
+msgid ""
+"Color used when the close value is greater than or equal to the open "
+"value."
+msgstr ""
+
+msgid "Color used when the close value is less than the open value."
+msgstr ""
 
 msgid ""
 "Color will be shaded based the normalized (0% to 100%) value of a given "
@@ -5314,6 +5345,9 @@ msgstr "داشبورد قابل بازیابی نبود."
 msgid "Dashboard could not be updated."
 msgstr "داشبورد قابل به‌روزرسانی نیست."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "داشبورد وجود ندارد"
 
@@ -5324,6 +5358,9 @@ msgstr "این داشبورد با موفقیت ذخیره شد."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "این داشبورد با موفقیت ذخیره شد."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "داشبورد وارد شد"
@@ -7440,9 +7477,6 @@ msgstr "گزارش هفتگی"
 msgid "Excel XML Export"
 msgstr "گزارش هفتگی"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "فرمت فایل اکسل قابل شناسایی نیست"
 
@@ -7623,6 +7657,11 @@ msgstr "صادر کردن به .CSV اصلی"
 
 msgid "Export to pivoted .CSV"
 msgstr "صادرات به فایل .CSV محور شده"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -8142,6 +8181,9 @@ msgstr ""
 "'department') و یکی به منطقه اروپا (کلید گروه = 'region') اشاره دارد، بند"
 " فیلتر به صورت زیر اعمال می‌شود: (department = 'Finance' OR department = "
 "'Marketing') AND (region = 'Europe')."
+
+msgid "Financial"
+msgstr ""
 
 msgid "Find"
 msgstr "یابید"
@@ -8666,7 +8708,13 @@ msgstr "خط زمانبندی را پنهان می‌کند"
 msgid "Hierarchy"
 msgstr "سلسله‌مراتب"
 
+msgid "High"
+msgstr ""
+
 msgid "High color"
+msgstr ""
+
+msgid "Highest value for each period."
 msgstr ""
 
 msgid "Histogram"
@@ -9440,6 +9488,12 @@ msgstr "برچسب خط"
 msgid "Label threshold"
 msgstr "آستانه برچسب"
 
+msgid "Label used for decreasing candles in the tooltip."
+msgstr ""
+
+msgid "Label used for increasing candles in the tooltip."
+msgstr ""
+
 msgid "Labelling"
 msgstr "برچسب‌گذاری"
 
@@ -9957,6 +10011,9 @@ msgstr "طول و عرض جغرافیایی"
 msgid "Longitude of default viewport"
 msgstr "طول جغرافیایی نمای پیش‌فرض"
 
+msgid "Low"
+msgstr ""
+
 msgid "Low color"
 msgstr ""
 
@@ -9970,6 +10027,9 @@ msgstr ""
 
 msgid "Lower threshold must be lower than upper threshold"
 msgstr "آستانه پایین باید کمتر از آستانه بالا باشد."
+
+msgid "Lowest value for each period."
+msgstr ""
 
 msgid "MAR"
 msgstr "مار"
@@ -10613,6 +10673,9 @@ msgstr ""
 msgid "Moves the given set of dates by a specified interval."
 msgstr "تاریخ‌های تعیین‌شده را به میزان مشخصی جابه‌جا می‌کند."
 
+msgid "Moving averages"
+msgstr ""
+
 msgid "Multi-Dimensions"
 msgstr "چندبعدی"
 
@@ -10719,6 +10782,11 @@ msgstr "نام گره‌های هدف"
 
 msgid "Name of your tag"
 msgstr "نام برچسب شما"
+
+msgid ""
+"Name used for the candlestick series in the legend and tooltip when no "
+"series dimension is set."
+msgstr ""
 
 msgid "Name your database"
 msgstr "نام پایگاه داده خود را وارد کنید"
@@ -11065,6 +11133,11 @@ msgstr "هیچ -> پیکان"
 msgid "None -> None"
 msgstr "هیچ -> هیچ"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "عادی"
 
@@ -11265,6 +11338,9 @@ msgstr "اطلاعات پایه"
 msgid "OCT"
 msgstr "اکتبر"
 
+msgid "OHLC"
+msgstr ""
+
 msgid "OK"
 msgstr "باشه"
 
@@ -11419,6 +11495,9 @@ msgstr "شفافیت حباب‌ها، ۰ به معنی کاملاً شفاف و
 msgid "Opacity, expects values between 0 and 100"
 msgstr "شفافیت، انتظار مقادیر بین ۰ تا ۱۰۰ دارد."
 
+msgid "Open"
+msgstr ""
+
 msgid "Open Datasource tab"
 msgstr "برگه داده‌منبع را باز کنید"
 
@@ -11455,6 +11534,9 @@ msgstr "در SQL Lab باز کنید"
 msgid "Open query in SQL Lab"
 msgstr "باز کردن کوئری در آزمایشگاه SQL"
 
+msgid "Opening value for each period."
+msgstr ""
+
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
@@ -11485,6 +11567,11 @@ msgstr "رشته فرمت تاریخ d3 اختیاری"
 
 msgid "Optional d3 number format string"
 msgstr "رشته فرمت عدد d3 اختیاری"
+
+msgid ""
+"Optional dimension used to split the chart into multiple candlestick "
+"series."
+msgstr ""
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -11612,6 +11699,11 @@ msgstr ""
 "۳۶۵ روز). متن آزاد پشتیبانی می‌شود. از گزینه \"وراثت دامنه از فیلترهای "
 "زمانی\" برای تغییر دامنه زمانی مقایسه به همان طول دامنه زمانی خود استفاده"
 " کنید و از گزینه \"سفارشی\" برای تعیین دامنه مقایسه سفارشی استفاده کنید."
+
+msgid ""
+"Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
+" Type a custom period to add it."
+msgstr ""
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -12240,6 +12332,12 @@ msgstr "پیشوند یا پسوند"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -14407,6 +14505,9 @@ msgstr "سبک سری"
 msgid "Series chart type (line, bar etc)"
 msgstr "نوع نمودار سری (خطی، میله‌ای و غیره)"
 
+msgid "Series colors"
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 #, fuzzy
@@ -14422,9 +14523,15 @@ msgstr "تنظیم افزایش سری"
 msgid "Series limit"
 msgstr "محدودیت سری"
 
+msgid "Series name"
+msgstr ""
+
 #, fuzzy
 msgid "Series settings"
 msgstr "تنظیمات فایل"
+
+msgid "Series style"
+msgstr ""
 
 #, fuzzy
 msgid "Series total setting"
@@ -14783,6 +14890,9 @@ msgid ""
 msgstr ""
 
 msgid "Show or hide the X axis line, ticks, and labels"
+msgstr ""
+
+msgid "Show or hide the Y axis line and labels"
 msgstr ""
 
 msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
@@ -16372,6 +16482,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
+
+msgid ""
 "The following charts were omitted because they have no saved query "
 "context. To include them, open each chart in Explore and re-save."
 msgstr ""
@@ -17593,6 +17709,12 @@ msgstr ""
 "داده‌های توضیحات منتقل شود یا خیر."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
@@ -19708,6 +19830,12 @@ msgid "When checked, the map will zoom to your data after each query"
 msgstr ""
 "زمانی که تیک خورده باشد، نقشه پس از هر کوئری به داده‌های شما زوم خواهد "
 "کرد."
+
+msgid ""
+"When enabled, increasing candles use the increase color and decreasing "
+"candles use the decrease color. Turn off to use one series color, with a "
+"filled body for increases and a hollow body for decreases."
+msgstr ""
 
 #, fuzzy
 msgid ""
