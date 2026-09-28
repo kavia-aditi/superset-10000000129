@@ -4040,6 +4040,9 @@ msgstr ""
 msgid "Confirm Password"
 msgstr ""
 
+msgid "Confirm new password"
+msgstr ""
+
 msgid "Confirm overwrite"
 msgstr ""
 
@@ -4047,6 +4050,9 @@ msgid "Confirm password"
 msgstr ""
 
 msgid "Confirm save"
+msgstr ""
+
+msgid "Confirm the new password"
 msgstr ""
 
 msgid "Confirm the user's password"
@@ -4419,6 +4425,9 @@ msgid "Current day"
 msgstr ""
 
 msgid "Current month"
+msgstr ""
+
+msgid "Current password"
 msgstr ""
 
 msgid "Current quarter"
@@ -6246,6 +6255,9 @@ msgstr ""
 msgid "Enter a name for this sheet"
 msgstr ""
 
+msgid "Enter a new password"
+msgstr ""
+
 msgid "Enter a part of the object name"
 msgstr ""
 
@@ -6296,6 +6308,9 @@ msgid "Enter the user's username"
 msgstr ""
 
 msgid "Enter theme name"
+msgstr ""
+
+msgid "Enter your current password"
 msgstr ""
 
 msgid "Enter your login and password below:"
@@ -8343,6 +8358,9 @@ msgstr ""
 msgid "Least recently modified"
 msgstr ""
 
+msgid "Leave blank to keep the current password"
+msgstr ""
+
 msgid ""
 "Leave on the deployment default unless you need to force asynchronous "
 "loading on or off for this dashboard."
@@ -9401,6 +9419,9 @@ msgid "New dataset name"
 msgstr ""
 
 msgid "New header"
+msgstr ""
+
+msgid "New password"
 msgstr ""
 
 msgid "New tab"
@@ -11353,6 +11374,9 @@ msgid "Required by"
 msgstr ""
 
 msgid "Required control values have been removed"
+msgstr ""
+
+msgid "Required if your account already has a password"
 msgstr ""
 
 msgid "Resample"
